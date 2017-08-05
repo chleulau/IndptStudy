@@ -7,5 +7,5 @@ In terminal, just run 'python parser.py' where a prompt will ask you which llvm 
 
 ## TODO
 * Provide the framework to run z3py for the basic paths
-* tweak the parser to allow it to run the LLVM IR for fibonacci generator, where return value (rv) is not either true (1) or false (0). 
-* I also need to add more comments to parser1.py.
+* Tweak the parser to allow it to run the LLVM IR for fibonacci generator, where return value (rv) is not either true (1) or false (0). 
+* I also need to add more comments to parser.py.
