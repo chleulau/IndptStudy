@@ -1,3 +1,0 @@
-Pre
-And(l <= i, ForAll(j, Implies(l <= j < i, a[j] != e)))
-rv == Exists(j, And(l <= i < u, a[i] = e))
