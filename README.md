@@ -1,6 +1,6 @@
 # Introduction
 Independent study in learning about program verification
-This repository is used for providing code and data for a general-purpose program verifier. Code is written in Python 2.7
+This repository is used for providing code and data for a general-purpose program verifier. The code is written in Python 2.7, using the Z3py SMT-solver, and clang for c to LLVM IR translation.
 
 ## Usage
 In terminal, just run 'python indptparser.py' where a prompt will ask you which llvm IR file to run. I provided three: examplels.ll (linear search), exampleprime.ll (prime checker (True means not a prime, False means it is a prime)), and examplefib.ll (Fibonacci generator). Thus far, the parser will generate lines of 'boolean sentences' corresponding to the basic paths. (Each basic path is a sentence) Then it checks each basic path for validity using Z3.
