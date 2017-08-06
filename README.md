@@ -9,5 +9,7 @@ In terminal, just run 'python indptparser.py' where a prompt will ask you which 
 It will now also generate and check the z3-friendly eval paths for a provided supply file, (specifically the first line consists of pre-condition, second line the loop invariant, and third line the post-condition). Theory of arrays are handled in the usual z3 way. For an array A and index i, 'A[i] == e' is simply 'Select(A, i) == e'. Supply files are corresponding to the example IR files. For instance, exampleprime.ll has the corresponding supplyprime.txt as a supply file.
 
 ## TODO
-* Tweak the parser to allow it to run the LLVM IR for fibonacci generator, where return value (rv) is not either true (1) or false (0). 
+* Tweak the parser to allow it to run the LLVM IR for fibonacci generator examplefib.ll, where return value (rv) is not either true (1) or false (0). 
+###### Update (8/6/17)
+I added parserfib.py, which parses examplefib.ll into basic paths.
 * I also need to add more comments to indptparser.py.
