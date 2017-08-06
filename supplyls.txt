@@ -1,0 +1,3 @@
+Pre
+And(l <= i, ForAll(j, Implies(And(l <= j, j < i), a[j] != e)))
+rv == Exists(j, And(And(l <= i, i <= u), a[i] == e))
