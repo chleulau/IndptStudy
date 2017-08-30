@@ -1,6 +1,6 @@
 # Introduction
 Independent study in learning about program verification
-This repository is used for providing code and data for a general-purpose program verifier. The code for this parser is named indptparser.py. It is written in Python 2.7, using the Z3py SMT-solver, clang for c to LLVM IR translation, and llvmpy for retrieving information about the LLVM IR.
+This repository is used for providing code and data for a general-purpose program verifier. The code for this parser is named indptparser.py. It is written in Python 2.7, using the Z3py SMT-solver, clang for c to LLVM IR translation, and llvmpy for retrieving information about the LLVM IR (via LLVM 3.3).
 
 # Update (8/30/17)
 The new file pverifier.py is the program verifier, and does everything indptparser.py used to do. Usage of pverifier.py is provided in the "Usage" section. The old files containing indptparser.py and the old supply files are in the folder "Finished_Old".
