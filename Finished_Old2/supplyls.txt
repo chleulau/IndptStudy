@@ -1,0 +1,3 @@
+Pre
+And(And(l <= i, ForAll(j, Implies(And(l <= j, j < i), Select(a, j) != e)))
+rv == Exists(j, And(And(l <= j, j <= u), Select(a, j) == e))
