@@ -1,3 +1,0 @@
-Pre
-And(2 <= i, ForAll(j, Implies(And(2 <= j, j < i), n % j != 0)))
-rv == Exists(j, And(And(2 <= j, j <= e), n % j == 0))
