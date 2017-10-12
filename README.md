@@ -10,3 +10,4 @@ In terminal, just run 'python pverifier.py' where a prompt will ask you which ll
 
 ## TODO
 * I need to add more comments to pverifier.py.
+* Finish implementing Data-driven loop invariant inference verifier using Python
